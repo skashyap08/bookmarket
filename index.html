@@ -1,16 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BookBazaar - Buy & Sell Used Books</title>
-<link rel="icon" href="favicon.ico">
-<div class="logo">
-   📚 <span>BookBazaar</span>
-</div>
-<section class="hero" id="home">
-   <h1>Welcome to BookBazaar</h1>
-   <p>Your one-stop shop for buying and selling used books!</p>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar">
+    <div class="logo">📚 BookBazaar</div>
+
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">Sell Books</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <button class="btn">Login</button>
+</nav>
+
+<!-- Hero -->
+
+<section class="hero">
+
+    <div class="hero-content">
+        <h1>Buy & Sell Second-Hand Books</h1>
+
+        <p>
+            Save Money. Save Trees. Find affordable books from
+            students and readers near you.
+        </p>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search books...">
+            <button>Search</button>
+        </div>
+    </div>
+
 </section>
-<a href="#home">Home</a>
-<input class="search-input" type="text" placeholder="Search books...">
-<button class="sell-btn">Sell Your Books</button>
-<h3>📘 Engineering</h3>
-<section class="categories" id="categories"></section>
-<p>⭐⭐⭐⭐⭐</p>
-<button>Buy Now</button>
+
+<!-- Categories -->
+
+<section class="categories">
+
+    <h2>Popular Categories</h2>
+
+    <div class="category-grid">
+
+        <div class="card">
+            <h3>Engineering</h3>
+        </div>
+
+        <div class="card">
+            <h3>Medical</h3>
+        </div>
+
+        <div class="card">
+            <h3>School Books</h3>
+        </div>
+
+        <div class="card">
+            <h3>Competitive Exams</h3>
+        </div>
+
+        <div class="card">
+            <h3>Novels</h3>
+        </div>
+
+        <div class="card">
+            <h3>Programming</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Books -->
+
+<section class="books">
+
+    <h2>Featured Books</h2>
+
+    <div class="book-grid">
+
+        <div class="book-card">
+            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f" alt="">
+            <h3>Data Structures</h3>
+            <p>₹299</p>
+        </div>
+
+        <div class="book-card">
+            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794" alt="">
+            <h3>Physics</h3>
+            <p>₹199</p>
+        </div>
+
+        <div class="book-card">
+            <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353" alt="">
+            <h3>Java Programming</h3>
+            <p>₹249</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Why Us -->
+
+<section class="features">
+
+    <h2>Why Choose Us?</h2>
+
+    <div class="feature-container">
+
+        <div class="feature">
+            <h3>💰 Affordable Prices</h3>
+            <p>Get books at 50-80% lower prices.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🌱 Eco Friendly</h3>
+            <p>Reuse books and reduce waste.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🚚 Easy Delivery</h3>
+            <p>Quick and secure shipping options.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Testimonials -->
+
+<section class="testimonials">
+
+    <h2>What Students Say</h2>
+
+    <div class="testimonial-grid">
+
+        <div class="testimonial">
+            <p>"Saved thousands on semester books!"</p>
+            <h4>- Rahul</h4>
+        </div>
+
+        <div class="testimonial">
+            <p>"Best platform to sell old books."</p>
+            <h4>- Priya</h4>
+        </div>
+
+        <div class="testimonial">
+            <p>"Simple and easy process."</p>
+            <h4>- Aman</h4>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+
+    <h2>Ready to Buy or Sell?</h2>
+
+    <button class="cta-btn">Start Now</button>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+    <p>© 2026 BookBazaar | Buy • Sell • Save</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
