@@ -31,3 +31,8 @@ display:flex;
 gap:25px;
 list-style:none;
 }
+.nav-links a{
+color:white;
+text-decoration:none;
+transition:.3s;
+}
