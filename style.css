@@ -26,3 +26,8 @@ font-size:1.8rem;
 font-weight:700;
 color:#38bdf8;
 }
+.nav-links{
+display:flex;
+gap:25px;
+list-style:none;
+}
