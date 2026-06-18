@@ -39,3 +39,11 @@ transition:.3s;
 .nav-links a:hover{
 color:#38bdf8;
 }
+.btn{
+padding:10px 25px;
+border:none;
+background:#38bdf8;
+color:white;
+border-radius:30px;
+cursor:pointer;
+}
