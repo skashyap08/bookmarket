@@ -80,5 +80,13 @@ padding:15px;
 border:none;
 border-radius:50px;
 }
+.search-box button{
+padding:15px 30px;
+border:none;
+background:#38bdf8;
+color:white;
+border-radius:50px;
+cursor:pointer;
+}
 
 
