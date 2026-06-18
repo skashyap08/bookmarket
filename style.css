@@ -127,6 +127,13 @@ display:grid;
 grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 gap:30px;
 }
+.book-card{
+background:white;
+color:black;
+border-radius:20px;
+overflow:hidden;
+transition:.4s;
+}
 
 
 
