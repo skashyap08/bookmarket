@@ -147,6 +147,17 @@ object-fit:cover;
 .book-card p{
 padding:15px;
 }
+.features{
+padding:100px 10%;
+}
+
+.feature-container{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+justify-content:center;
+}
+
 
 
 
