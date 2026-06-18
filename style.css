@@ -110,5 +110,9 @@ border-radius:20px;
 text-align:center;
 transition:.4s;
 }
+.card:hover{
+transform:translateY(-10px);
+background:#38bdf8;
+}
 
 
