@@ -209,6 +209,18 @@ background:black;
 .hero-content h1{
 font-size:2.5rem;
 }
+.search-box{
+flex-direction:column;
+}
+
+.search-box input{
+width:100%;
+}
+
+.nav-links{
+display:none;
+}
+}
 
 
 
