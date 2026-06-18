@@ -117,6 +117,16 @@ background:#38bdf8;
 .books{
 padding:100px 10%;
 }
+.books h2{
+text-align:center;
+margin-bottom:50px;
+}
+
+.book-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
 
 
 
